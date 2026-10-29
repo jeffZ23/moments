@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FE9ACA91513FCB69459E980 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EA863554DA35F5AB971155 /* AppConfig.swift */; };
+		14AAEB4BD3314B72E35C8143 /* BackendClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B5D8BCC831A0C2A406E095 /* BackendClient.swift */; };
+		200263D6190297425E8E091F /* MomentsWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = B0B49BACF87BAF5E0963D66F /* MomentsWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		213B9389B3C094E86CA2DF39 /* MomentsWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824DD639FA9CC2FAAA45F40F /* MomentsWidgetBundle.swift */; };
+		3E872A1673DEA68AA9B04FE9 /* SpotifyClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F95D82C0EE6D59B9CE0B339 /* SpotifyClient.swift */; };
+		474111FB4B4B1801BF8A0869 /* MomentActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1740D7C5C10355635552937E /* MomentActivityAttributes.swift */; };
+		6322696B456EF6D6B18CB43D /* MomentCore in Frameworks */ = {isa = PBXBuildFile; productRef = F96D2B3C917816E5B93F7914 /* MomentCore */; };
+		666B2CDFDDECBB03B29C1C9C /* MomentsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3143AF35092DD5FA8CA97B19 /* MomentsApp.swift */; };
+		672DC49CBA13DFF063024978 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6194D31CB4DB72C9C231351 /* WeatherService.swift */; };
+		6D347D2B7B8C4E032A31E25F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647D63001DF3F1995E0877BB /* SettingsView.swift */; };
+		7CBFD8970C8E133D3CD7C791 /* SensorServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67721F141145F2977F7D6015 /* SensorServices.swift */; };
+		9915B522854B443C08ECF04F /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53C9CEA8129ED6F1D6D9F29 /* AppModel.swift */; };
+		ACBDD03643AC3E4C72E886F6 /* LiveActivityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538BE75AD629CBF41E3BAA23 /* LiveActivityController.swift */; };
+		B4224F08ADE7C0BD42B7B356 /* MomentActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1740D7C5C10355635552937E /* MomentActivityAttributes.swift */; };
+		C1657846351D04AF24633B7B /* DriveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001C09EEFF02126FFC5D1F6 /* DriveView.swift */; };
+		CED5907A8D843216712179EA /* LibraryBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99833B4D4C92D6934FDFDF4 /* LibraryBuilder.swift */; };
+		E0FAF265C1DC711832FDB98A /* SetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084C9D5B19D1FD3B4B3B6A1F /* SetupView.swift */; };
+		F5960E99281FF94F3BF4D913 /* TripsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7656C86A9F25E24A1FE6C174 /* TripsView.swift */; };
+		FA11E2D4C9633D06453B9636 /* SpotifyAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4555A382E5A13FCA1E4466BE /* SpotifyAuth.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E2A41BB039856B7D0705C7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E20E9520BCCB251319F0CCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A23AC0912829E88CBC49D84;
+			remoteInfo = MomentsWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		96174BC7E5110500E331EF59 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				200263D6190297425E8E091F /* MomentsWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		084C9D5B19D1FD3B4B3B6A1F /* SetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupView.swift; sourceTree = "<group>"; };
+		16DD7DFA0319BC50C9174291 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1740D7C5C10355635552937E /* MomentActivityAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentActivityAttributes.swift; sourceTree = "<group>"; };
+		2F95D82C0EE6D59B9CE0B339 /* SpotifyClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyClient.swift; sourceTree = "<group>"; };
+		3143AF35092DD5FA8CA97B19 /* MomentsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentsApp.swift; sourceTree = "<group>"; };
+		33B5D8BCC831A0C2A406E095 /* BackendClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackendClient.swift; sourceTree = "<group>"; };
+		36E6D0A579DCC4C9C671D8E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4555A382E5A13FCA1E4466BE /* SpotifyAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyAuth.swift; sourceTree = "<group>"; };
+		538BE75AD629CBF41E3BAA23 /* LiveActivityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveActivityController.swift; sourceTree = "<group>"; };
+		647D63001DF3F1995E0877BB /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		67721F141145F2977F7D6015 /* SensorServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorServices.swift; sourceTree = "<group>"; };
+		7656C86A9F25E24A1FE6C174 /* TripsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsView.swift; sourceTree = "<group>"; };
+		824DD639FA9CC2FAAA45F40F /* MomentsWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentsWidgetBundle.swift; sourceTree = "<group>"; };
+		B001C09EEFF02126FFC5D1F6 /* DriveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveView.swift; sourceTree = "<group>"; };
+		B0B49BACF87BAF5E0963D66F /* MomentsWidget.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = MomentsWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		B99833B4D4C92D6934FDFDF4 /* LibraryBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryBuilder.swift; sourceTree = "<group>"; };
+		C53C9CEA8129ED6F1D6D9F29 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		D1EA863554DA35F5AB971155 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		D6194D31CB4DB72C9C231351 /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		DBFA2E1C9FADC24754179453 /* Moments.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Moments.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4BBFC6924FE6052E8DFF460 /* MomentCore */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MomentCore; path = MomentCore; sourceTree = SOURCE_ROOT; };
+		"TEMP_BCDC8505-41BD-48A5-9F33-ADDD448313E1" /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5845F8745B0D7F2837FC1EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6322696B456EF6D6B18CB43D /* MomentCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15B33884CBCC3BED21E5F72F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBFA2E1C9FADC24754179453 /* Moments.app */,
+				B0B49BACF87BAF5E0963D66F /* MomentsWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44C09C9B7CDA9E8C293B09D6 = {
+			isa = PBXGroup;
+			children = (
+				BFDE012D4F382C26E35B93CA /* Moments */,
+				5C0ACE5EDF941A6C82739BE7 /* MomentsWidget */,
+				BA0D85B6B6F52832624F05B4 /* Packages */,
+				F48DE68C823765738F4A92A3 /* Shared */,
+				15B33884CBCC3BED21E5F72F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C0ACE5EDF941A6C82739BE7 /* MomentsWidget */ = {
+			isa = PBXGroup;
+			children = (
+				36E6D0A579DCC4C9C671D8E2 /* Info.plist */,
+				824DD639FA9CC2FAAA45F40F /* MomentsWidgetBundle.swift */,
+			);
+			path = MomentsWidget;
+			sourceTree = "<group>";
+		};
+		6896292A618AE0EAE31B9CF6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B001C09EEFF02126FFC5D1F6 /* DriveView.swift */,
+				647D63001DF3F1995E0877BB /* SettingsView.swift */,
+				084C9D5B19D1FD3B4B3B6A1F /* SetupView.swift */,
+				7656C86A9F25E24A1FE6C174 /* TripsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8C5CB3859F3D56A4C3414A92 /* Spotify */ = {
+			isa = PBXGroup;
+			children = (
+				4555A382E5A13FCA1E4466BE /* SpotifyAuth.swift */,
+				2F95D82C0EE6D59B9CE0B339 /* SpotifyClient.swift */,
+			);
+			path = Spotify;
+			sourceTree = "<group>";
+		};
+		90B2584EB416A0E5BE988059 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				33B5D8BCC831A0C2A406E095 /* BackendClient.swift */,
+				B99833B4D4C92D6934FDFDF4 /* LibraryBuilder.swift */,
+				538BE75AD629CBF41E3BAA23 /* LiveActivityController.swift */,
+				67721F141145F2977F7D6015 /* SensorServices.swift */,
+				D6194D31CB4DB72C9C231351 /* WeatherService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BA0D85B6B6F52832624F05B4 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				E4BBFC6924FE6052E8DFF460 /* MomentCore */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		BFDE012D4F382C26E35B93CA /* Moments */ = {
+			isa = PBXGroup;
+			children = (
+				D1EA863554DA35F5AB971155 /* AppConfig.swift */,
+				C53C9CEA8129ED6F1D6D9F29 /* AppModel.swift */,
+				16DD7DFA0319BC50C9174291 /* Info.plist */,
+				3143AF35092DD5FA8CA97B19 /* MomentsApp.swift */,
+				90B2584EB416A0E5BE988059 /* Services */,
+				8C5CB3859F3D56A4C3414A92 /* Spotify */,
+				6896292A618AE0EAE31B9CF6 /* Views */,
+			);
+			path = Moments;
+			sourceTree = "<group>";
+		};
+		F48DE68C823765738F4A92A3 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				1740D7C5C10355635552937E /* MomentActivityAttributes.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		"TEMP_B316DB19-431E-44B8-9B4A-F6FC6330CB6F" /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				"TEMP_BCDC8505-41BD-48A5-9F33-ADDD448313E1" /* Config.xcconfig */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A23AC0912829E88CBC49D84 /* MomentsWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2445954DFB0E7A39DC3E972 /* Build configuration list for PBXNativeTarget "MomentsWidget" */;
+			buildPhases = (
+				E19886014EE4DFCBA97DC1FF /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MomentsWidget;
+			packageProductDependencies = (
+			);
+			productName = MomentsWidget;
+			productReference = B0B49BACF87BAF5E0963D66F /* MomentsWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		96A51F6082F0A50C126C394A /* Moments */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A2A6B6E85FCE9E6DE682E2D /* Build configuration list for PBXNativeTarget "Moments" */;
+			buildPhases = (
+				B7AABD747DB74C0B3F03CBEE /* Sources */,
+				D5845F8745B0D7F2837FC1EF /* Frameworks */,
+				96174BC7E5110500E331EF59 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09080258A945EDE8BFB70E12 /* PBXTargetDependency */,
+			);
+			name = Moments;
+			packageProductDependencies = (
+				F96D2B3C917816E5B93F7914 /* MomentCore */,
+			);
+			productName = Moments;
+			productReference = DBFA2E1C9FADC24754179453 /* Moments.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E20E9520BCCB251319F0CCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					7A23AC0912829E88CBC49D84 = {
+						DevelopmentTeam = "";
+					};
+					96A51F6082F0A50C126C394A = {
+						DevelopmentTeam = "";
+					};
+				};
+			};
+			buildConfigurationList = 58AAF9187D3F1A7733994FA3 /* Build configuration list for PBXProject "Moments" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 44C09C9B7CDA9E8C293B09D6;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				DFE3C6B265BC1A2FFE45DA87 /* XCLocalSwiftPackageReference "MomentCore" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 15B33884CBCC3BED21E5F72F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96A51F6082F0A50C126C394A /* Moments */,
+				7A23AC0912829E88CBC49D84 /* MomentsWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7AABD747DB74C0B3F03CBEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FE9ACA91513FCB69459E980 /* AppConfig.swift in Sources */,
+				9915B522854B443C08ECF04F /* AppModel.swift in Sources */,
+				14AAEB4BD3314B72E35C8143 /* BackendClient.swift in Sources */,
+				C1657846351D04AF24633B7B /* DriveView.swift in Sources */,
+				CED5907A8D843216712179EA /* LibraryBuilder.swift in Sources */,
+				ACBDD03643AC3E4C72E886F6 /* LiveActivityController.swift in Sources */,
+				474111FB4B4B1801BF8A0869 /* MomentActivityAttributes.swift in Sources */,
+				666B2CDFDDECBB03B29C1C9C /* MomentsApp.swift in Sources */,
+				7CBFD8970C8E133D3CD7C791 /* SensorServices.swift in Sources */,
+				6D347D2B7B8C4E032A31E25F /* SettingsView.swift in Sources */,
+				E0FAF265C1DC711832FDB98A /* SetupView.swift in Sources */,
+				FA11E2D4C9633D06453B9636 /* SpotifyAuth.swift in Sources */,
+				3E872A1673DEA68AA9B04FE9 /* SpotifyClient.swift in Sources */,
+				F5960E99281FF94F3BF4D913 /* TripsView.swift in Sources */,
+				672DC49CBA13DFF063024978 /* WeatherService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E19886014EE4DFCBA97DC1FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4224F08ADE7C0BD42B7B356 /* MomentActivityAttributes.swift in Sources */,
+				213B9389B3C094E86CA2DF39 /* MomentsWidgetBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09080258A945EDE8BFB70E12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A23AC0912829E88CBC49D84 /* MomentsWidget */;
+			targetProxy = 4E2A41BB039856B7D0705C7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3F6EDA0B829CA3F23BF60C85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = "TEMP_BCDC8505-41BD-48A5-9F33-ADDD448313E1" /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		5FDF17CB0CFB0744AF2F924B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = "TEMP_BCDC8505-41BD-48A5-9F33-ADDD448313E1" /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		82A763699C4D80B1A7125403 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Moments/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).app";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		989C37D26588BFF32ED2F6F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MomentsWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).app.widget";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EB8216379F19BBA62AB83D58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MomentsWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).app.widget";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FBA3D172D26C40F1402D20DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Moments/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).app";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A2A6B6E85FCE9E6DE682E2D /* Build configuration list for PBXNativeTarget "Moments" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82A763699C4D80B1A7125403 /* Debug */,
+				FBA3D172D26C40F1402D20DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		58AAF9187D3F1A7733994FA3 /* Build configuration list for PBXProject "Moments" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FDF17CB0CFB0744AF2F924B /* Debug */,
+				3F6EDA0B829CA3F23BF60C85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F2445954DFB0E7A39DC3E972 /* Build configuration list for PBXNativeTarget "MomentsWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				989C37D26588BFF32ED2F6F1 /* Debug */,
+				EB8216379F19BBA62AB83D58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		DFE3C6B265BC1A2FFE45DA87 /* XCLocalSwiftPackageReference "MomentCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = MomentCore;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F96D2B3C917816E5B93F7914 /* MomentCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MomentCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1E20E9520BCCB251319F0CCE /* Project object */;
+}
